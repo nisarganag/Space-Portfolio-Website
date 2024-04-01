@@ -1,14 +1,4 @@
-export const Skill_data = [
-    
-    
-    
-  
-  ];
-  
-  export const Socials = [
-    
-  ];
-  
+
   
   
   export const Frontend_skill = [
@@ -112,11 +102,6 @@ export const Skill_data = [
   
   ];
   
-  
-  
-  export const Other_skill = [
-   
-  ];
   
   
   
