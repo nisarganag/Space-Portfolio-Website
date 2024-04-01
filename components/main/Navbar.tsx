@@ -1,6 +1,8 @@
 import { Socials } from "@/constants";
 import Image from "next/image";
 import React from "react";
+import { FaIcons } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa";
 
 const Navbar = () => {
   return (
@@ -19,7 +21,7 @@ const Navbar = () => {
           />
 
           <span className="font-bold ml-[10px] hidden md:block text-gray-300">
-            WebChain Dev
+            Portfolio Website
           </span>
         </a>
 
@@ -38,15 +40,9 @@ const Navbar = () => {
         </div>
 
         <div className="flex flex-row gap-5">
-          {Socials.map((social) => (
-            <Image
-              src={social.src}
-              alt={social.name}
-              key={social.name}
-              width={24}
-              height={24}
-            />
-          ))}
+          <a href="https://github.com/nisarganag" target="_blank" rel="noopener noreferrer">
+            <FaGithub size={24} color="white"/>
+          </a>
         </div>
       </div>
     </div>
