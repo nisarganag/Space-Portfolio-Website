@@ -1,8 +1,9 @@
 import { Socials } from "@/constants";
 import Image from "next/image";
 import React from "react";
-import { FaIcons } from "react-icons/fa";
+import { FaIcons, FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
+import { AiOutlineMail } from "react-icons/ai";
 
 const Navbar = () => {
   return (
@@ -42,6 +43,12 @@ const Navbar = () => {
         <div className="flex flex-row gap-5">
           <a href="https://github.com/nisarganag" target="_blank" rel="noopener noreferrer">
             <FaGithub size={24} color="white"/>
+          </a>
+          <a href="https://linkedin.com/in/nisarga-nag" target="_blank" rel="noopener noreferrer">
+            <FaLinkedin size={24} color="white"/>
+          </a>
+          <a href="mailto:nisarga.nag@outlook.com" target="_blank" rel="noopener noreferrer">
+          <AiOutlineMail size={24} color="white"/>
           </a>
         </div>
       </div>
