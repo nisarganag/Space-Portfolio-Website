@@ -46,9 +46,9 @@ const HeroContent = () => {
           variants={slideInFromLeft(0.8)}
           className="text-lg text-gray-400 my-5 max-w-[600px]"
         >
-          I&apos;m a Backend Software Engineer with experience in Website
-           and Software development... 
-           <br></br>I Like to automate things and make them more efficient.
+          I&apos;m a Backend Developer with experience in Website
+           and Software Development... 
+           <br></br>I like to automate things and make them more efficient.
         </motion.p>
         <motion.a href="https://drive.google.com/file/d/1QLk5Yf2M4rbo5ikRgQTaVGKnHynnEQ_l/view?usp=drive_link"
           variants={slideInFromLeft(1)}
