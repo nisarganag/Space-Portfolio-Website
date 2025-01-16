@@ -50,7 +50,7 @@ const HeroContent = () => {
            and Software Development... 
            <br></br>I like to automate things and make them more efficient.
         </motion.p>
-        <motion.a href="https://drive.google.com/file/d/16qgn-Q327AQU9SDhdObgtXMo4W-iako-/view?usp=sharing"
+        <motion.a href="https://drive.google.com/file/d/1k_vkID3SBn-EucYY4jgmGv__g42wp5IB/view?usp=sharing"
           variants={slideInFromLeft(1)}
           className="py-2 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px]"
         >
